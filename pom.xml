@@ -9,7 +9,11 @@
       <artifactId>SimpleJspServletDB</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </properties>
-  
+  	<parent>
+		<groupId>com.example</groupId>
+  		<artifactId>parent-pom</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+	</parent>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
